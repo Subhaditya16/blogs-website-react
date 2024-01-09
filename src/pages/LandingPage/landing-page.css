@@ -1,0 +1,28 @@
+.landing-page {
+    background: linear-gradient(360deg, #2C3E50,#BDC3C7);
+    height: 100vh;
+    text-align: center;
+}
+
+.landing-page-socials {
+    font-size: var(--font-size-4xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+}
+
+.landing-page-body {
+    font-size: 500%;
+}
+
+.landing-page-desc {
+    justify-items: left;
+}
+
+.display-picture {
+    height: 40vh;
+    padding-left: 50%;
+}
+
+.display-text {
+    padding-top: 7%;
+}
