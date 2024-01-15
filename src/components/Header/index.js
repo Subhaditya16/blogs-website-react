@@ -7,13 +7,9 @@ function Header() {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Navbar.Brand onClick={() => navigate("/")} style={{ cursor: "pointer" }}>
-        Subhaditya
+        Home
       </Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link onClick={() => navigate("/about")} href="/about">
-          About
-        </Nav.Link>
-        <Nav.Link href="/projects">Projects</Nav.Link>
         <Nav.Link href="/blogs">Blogs</Nav.Link>
       </Nav>
       <Form className="d-flex">

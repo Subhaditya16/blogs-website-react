@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.landing-page-body, .landing-page-socials , .landing-page-blogs {
+    padding-bottom: 1rem;
+}
+
 .landing-page-socials {
     font-size: var(--font-size-4xl);
     color: var(--color-white);
@@ -11,18 +15,5 @@
 }
 
 .landing-page-body {
-    font-size: 500%;
-}
-
-.landing-page-desc {
-    justify-items: left;
-}
-
-.display-picture {
-    height: 40vh;
-    padding-left: 50%;
-}
-
-.display-text {
-    padding-top: 7%;
+    font-size: 400%;
 }
