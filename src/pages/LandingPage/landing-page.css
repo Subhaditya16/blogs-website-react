@@ -1,19 +1,27 @@
 .landing-page {
-    background: linear-gradient(360deg, #2C3E50,#BDC3C7);
-    height: 100vh;
-    text-align: center;
+  background: linear-gradient(360deg, #2c3e50, #bdc3c7);
+  text-align: center;
 }
 
-.landing-page-body, .landing-page-socials , .landing-page-blogs {
-    padding-bottom: 1rem;
+.landing-page-body,
+.landing-page-socials,
+.landing-page-blogs,
+.landing-page-footer {
+  padding-bottom: 1rem;
 }
 
 .landing-page-socials {
-    font-size: var(--font-size-4xl);
-    color: var(--color-white);
-    font-family: var(--font-poppins);
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
 }
 
 .landing-page-body {
-    font-size: 400%;
+  font-size: 250%;
+}
+
+.landing-page-blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

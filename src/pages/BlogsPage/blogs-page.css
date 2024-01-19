@@ -1,0 +1,13 @@
+.blogs-page {
+    background: linear-gradient(360deg, #2C3E50,#BDC3C7);
+    text-align: center;
+}
+
+.blogs-page-body {
+    font-size: 250%;
+}
+
+.blogs-page-main,
+.blogs-page-footer {
+    padding-bottom: 1rem;
+}
